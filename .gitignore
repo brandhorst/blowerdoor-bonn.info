@@ -39,4 +39,5 @@ validation-staus.json
 .idea
 node_modules
 temp
+dist
 .tmp
