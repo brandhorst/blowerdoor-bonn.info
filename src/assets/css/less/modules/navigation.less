@@ -1,0 +1,35 @@
+// none mobile first
+
+
+#navigation {
+
+  margin: 20px 0 10px 0;
+
+  ul {
+    text-align: center;
+
+  }
+  li {
+    a {
+      //font-family: @headings-font-family;
+      font-family: @font-family-serif-2;
+      color: @gray-dark;
+    }
+  }
+
+  // Phones
+  @media (max-width: @screen-phone) {
+    ul {
+      text-align: right;
+    }
+    li {
+      display: block;
+    }
+
+    #logo {
+      position: absolute;
+      left: 36px;
+      top: 20px;
+    }
+  }
+}

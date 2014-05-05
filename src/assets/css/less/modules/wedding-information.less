@@ -1,0 +1,152 @@
+#wedding-informations, .wedding-details-when {
+  font-family: @font-family-serif;
+}
+
+
+@media (min-width: @screen-tablet) {
+
+  #wedding-informations, .wedding-details-when {
+
+    .block {
+      display: block;
+      float: left;
+      padding-right: 2%;
+      position: relative;
+
+      & > i {
+        line-height: 1;
+        display: block;
+        font-family: @font-family-serif-2;
+        color: @gray-light;
+        font-size: 30px;
+      }
+    }
+
+    .arrow {
+      display: block;
+      min-width: 68px;
+      min-height: 155px;
+
+      .character {
+        display: block;
+        position: absolute;
+        top: 40px;
+        left: 15px;
+        font-size: 80px;
+        color: @gray-light;
+      }
+    }
+
+
+
+
+
+
+    .counter {
+      line-height: 1;
+      display: block;
+      min-width: 170px;
+      position: relative;
+      top: 30px;
+
+      & > span {
+        display: block;
+        position: absolute;
+        min-width: 155px;
+        text-align: center;
+      }
+
+      .days {
+        display: block;
+        font-size: 60px;
+
+        .unit {
+          font-size: 30px;
+        }
+      }
+
+      .minutes {
+        width: 100%;
+        display: block;
+        font-size: 32px;
+        letter-spacing: 24px;
+        text-align: center;
+        top: 60px;
+
+      }
+    } // Counter
+
+
+
+
+
+
+
+    .date {
+      display: block;
+      line-height: 1;
+      min-width: 415px;
+      min-height: 155px;
+      font-weight: bold;
+      display: block;
+      position: relative;
+
+
+      & > span {
+        display: block;
+        position: absolute;
+      }
+
+      .day {
+        // color: @green;
+        font-size: 164px;
+        top: -20px;
+        left: 0;
+      }
+      .month {
+        font-size: 60px;
+        top: 22px;
+        left: 185px;
+      }
+      .year {
+        // color: @gray-light;
+        font-size: 56px;
+        top: 76px;
+        left: 185px;
+        letter-spacing: 40px;
+      }
+
+      .hour {
+        // font-size: 124px;
+        // top: 5px;
+        // left: 0;
+
+        font-size: 90px;
+        top: 25px;
+        left: 50px;
+
+        .unit {
+          font-size: 60px
+        }
+      }
+    } // date
+  } // wedding-information
+
+
+  // Location
+  #wi-location {
+    font-family: @font-family-serif;
+    color: @gray-light;
+    font-size: 36px;
+
+    @media screen and (min-width: @screen-desktop) {
+      margin-top: -20px;
+    }
+  }
+
+  // .wedding-details-when {
+  //   margin-top: -22px;
+  // }
+
+} // >= tablet screen
+
